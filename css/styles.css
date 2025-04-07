@@ -37,13 +37,16 @@ nav ul li a {
   float: left;
 }
 
+#main-navbar {
+  background-color:rgb(167, 209, 243);
+}
+
 #main-navbar ul li a {
   display: block;
   padding: 10px 20px;
   color:rgb(255, 255, 255);
   background-color:rgb(167, 209, 243);
   text-decoration: none;
-  background-color: rgb(167, 209, 243);
   font-size: 25px;
 }
 
@@ -70,6 +73,18 @@ p {
 img {
   width: 150px;
   height: 150px;
+}
+
+
+#flex {
+  display: flex;
+  justify-content: center; /* horizontally centers the images */
+  align-items: center; /* vertically centers the images */
+}
+
+#flex img {
+    flex-basis: 50%; /* sets the width of the images */
+    padding: 50px 50px;
 }
 
 body {
